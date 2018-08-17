@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "534630366845",
+    "firebase_url": "https://finaldmrcquiz.firebaseio.com",
+    "project_id": "finaldmrcquiz",
+    "storage_bucket": "finaldmrcquiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534630366845:android:5502916974ac67b0",
+        "android_client_info": {
+          "package_name": "com.trips.finaldmrcquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534630366845-m7uehqoi0130sj59uo4dcms9oh6q7ktj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO3WtyAovSmUwYEQZlTyQeL1puhxPVMos"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

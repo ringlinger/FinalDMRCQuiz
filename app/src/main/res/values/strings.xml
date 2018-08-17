@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quiz DMRC</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rule_text">1. You have 10 questions to answer.\n
+        2. The questions are in a MCQ format in which 1 out of 4 options is correct.\n
+        3. There is no time limit to answer.\n
+        4. It is mandatory to answer all the questions.\n
+        5. Hit the finish button at the 10th question to see your score.\n
+        6. Lock your Screen Rotation to Portrait Mode.</string>
+    <string name="words">Congratulations!\n\n You have completed the Quiz.\n Your Details are as below:</string>
+</resources>

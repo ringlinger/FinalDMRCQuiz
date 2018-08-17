@@ -1,0 +1,52 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Welcome to DMRC Quiz"
+        android:textColor="#000000"
+        android:textSize="32sp" />
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:id="@+id/tablayout">
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_marginTop="120dp">
+    </android.support.v4.view.ViewPager>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp">
+    </com.google.android.gms.common.SignInButton>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:text="or"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+</RelativeLayout>
